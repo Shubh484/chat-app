@@ -17,8 +17,8 @@ const router = express.Router();
 //   res.send("Logout Route");
 // });
 
-router.get("/signup", Signup);
-router.get("/login", Login);
-router.get("/logout", Logout);
+router.post("/signup", Signup);
+router.post("/login", Login);
+router.post("/logout", Logout);
 
 export default router;
